@@ -20,11 +20,6 @@ pipeline {
             steps {
                 bat "./jenkins/scripts/scripts.bat"
             }
-        }
-        stage('Complete') {
-            steps {
-                bat "echo job complete"
-            }
-        }
+        }       
     }
 }
